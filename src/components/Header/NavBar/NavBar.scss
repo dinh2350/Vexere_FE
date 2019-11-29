@@ -1,0 +1,30 @@
+.header__navbar {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    li {
+      margin: 0px 10px;
+    }
+    .header__nav {
+      padding: 0px 20px;
+      display: flex;
+
+      span {
+        display: block;
+        padding: 10px 0px;
+        font-size: 1.6rem;
+        &:hover {
+          cursor: pointer;
+          color: #1890ff;
+        }
+      }
+      img {
+        margin-top: 9px;
+        height: 20px;
+        font-size: 2rem;
+        margin-left: 3px;
+      }
+    }
+  }
+}
