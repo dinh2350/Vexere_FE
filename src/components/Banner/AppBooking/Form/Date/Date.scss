@@ -1,0 +1,27 @@
+.banner__date {
+  display: flex;
+  width: 24%;
+  padding: 5px 10px 5px 10px;
+  .banner__icon {
+    margin-left: 5px;
+    width: 15px;
+    height: 28px;
+    i {
+      padding-top: 7px;
+      font-size: 2rem;
+      color: rgb(0, 122, 255);
+    }
+  }
+  .banner__input {
+    margin-left: 15px;
+    input {
+      border: none;
+      width: 100%;
+      height: 35px;
+      font-size: 1.8rem;
+      color: rgb(102, 102, 102);
+      box-sizing: border-box;
+      outline: none;
+    }
+  }
+}
